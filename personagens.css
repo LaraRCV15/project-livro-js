@@ -1,0 +1,70 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom,  #771414,  #000000);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fffcfc;
+}
+
+header {
+    background-image: linear-gradient(to bottom,  #771414,  #000000);
+    color: rgb(255, 255, 255);
+    min-height: 80px;
+    text-align: center;  min-height: 100px;
+    padding-top: 25px;
+    border-radius: 10px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center; /* Centraliza o texto dos títulos */
+    font-size: 1.5em;   /* Ajusta o tamanho da fonte, se necessário */
+    margin-bottom: 10px;
+}
+
+.livro {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.container, .container2, .container3, .container4, .container5,
+.container6, .container7, .container8 {
+    max-width: 800px; /* Limita a largura do texto */
+    margin: 0 auto;   /* Centraliza o conteúdo na página */
+    line-height: 1.6;
+    color: #fff;
+}
+nav > a {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 10px;
+    margin: 0;
+    margin: 0 auto;        /* Centraliza horizontalmente */
+    text-align: center;    /* Centraliza o conteúdo dentro do bloco */
+    width: fit-content;    /* Ajusta a largura do bloco ao conteúdo */
+}
+
+
+.voltar:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+
+

@@ -1,0 +1,112 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom,  #771414,  #000000);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000000;
+}
+
+header {
+    background-image: linear-gradient(to bottom,  #77141439,  #000000);
+    color: rgb(255, 255, 255);
+    padding: 8px 0;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+header h1, footer p {
+    margin: 8px;
+}
+
+nav > a {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: #4d1b1b;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.47);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main img {
+    width: 100%;
+}
+
+.introducao, .livros, .autora, .contato {
+    color: rgba(255, 255, 255, 0.993);
+    background-color: rgba(162, 35, 35, 0.104);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.livro {
+    margin-bottom: 20px;
+}
+
+.livro img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-image: linear-gradient(to bottom,  #771414,  #000000);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
