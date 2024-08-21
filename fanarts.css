@@ -64,3 +64,20 @@ main {
 .couple {
     text-align: center;
 }
+
+.voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 10px;
+    margin: 0;
+    margin: 0 auto;        /* Centraliza horizontalmente */
+    text-align: center;    /* Centraliza o conteúdo dentro do bloco */
+    width: fit-content;    /* Ajusta a largura do bloco ao conteúdo */
+}
+
+.voltar:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
